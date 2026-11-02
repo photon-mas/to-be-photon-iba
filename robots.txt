@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://photon-mas.github.io/vocab-master-ev/sitemap.xml

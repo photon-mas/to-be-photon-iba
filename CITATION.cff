@@ -1,0 +1,12 @@
+cff-version: "EV 1.2.0"
+message: "If you use Vocab MASter, please cite it as below."
+title: "Vocab MASter EV: an ad-free English thesaurus for IBA, GRE and TOEFL"
+version: "EV 1.2.0"
+date-released: 2026-10-30
+license: MIT
+url: "https://photon-mas.github.io/vocab-master-ev/"
+repository-code: "https://github.com/photon-mas/vocab-master-ev"
+authors:
+  - family-names: "Al Shahriar"
+    given-names: "MD"
+    affiliation: "Photon IBA; MAS Studio; Institute of Business Administration, University of Dhaka; BUET"

@@ -1,0 +1,29 @@
+== validate_entries.py (v2, this package) on all entries
+
+entries: 6488 | with errors: 0 | fully clean: 5907
+    315  WARN  strong_synonyms N < N
+    144  WARN  strong_synonyms N < N (flagged no_close_synonym)
+    125  WARN  antonyms < N
+     44  WARN  weak_synonyms N < N
+      4  WARN  related N < N
+
+== same, IBA + Barron's (Tier 1)
+
+entries: 1306 | with errors: 0 | fully clean: 1259
+     25  WARN  strong_synonyms N < N (flagged no_close_synonym)
+     11  WARN  strong_synonyms N < N
+      8  WARN  antonyms < N
+      5  WARN  weak_synonyms N < N
+
+== original handoff validator (v1) on all entries, for comparison
+entries: 6488 | with errors: 464 | fully clean: 5600
+    320  ERROR only N sentences contain the word or an inflection
+    315  WARN  strong_synonyms N < N
+    144  ERROR strong_synonyms N < N
+    125  WARN  antonyms < N
+     44  WARN  weak_synonyms N < N
+      4  WARN  related N < N
+
+== EV 1.2 form sentences (fm_validate.py, every batch)
+words with form slots: 5856 | slots: 15751 | sentences written: 14661 | skipped as unnatural (e.g. plural of an uncountable noun): 1090 | errors: 0
+usage labels: 47101 of 47101 sentences | word-forms tables: 5579 entries
